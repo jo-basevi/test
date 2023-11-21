@@ -1,3 +1,4 @@
+name: JSON
 on:
   workflow_dispatch:
 jobs:
