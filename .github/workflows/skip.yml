@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: check
         id: no-image-exists
-        run: echo "check=true" >> $GITHUB_OUTPUT
+        run: echo "image exists"
       - name: build
         if: steps.no-image-exists.outputs.check
         run: echo "Building base..."
