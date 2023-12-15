@@ -1,0 +1,10 @@
+name: Check tag from upstream
+on:
+  push:
+    tags:
+      - 'v*'
+jobs:
+  some-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "${{ github.ref }}"
