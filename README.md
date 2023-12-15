@@ -1,3 +1,3 @@
 # test
 
-This is a really, really cool test repo.
+This is a really, really exceptionally cool test repo.
